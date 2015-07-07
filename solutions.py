@@ -11,7 +11,12 @@ def half_reverse(s):
 	Given a string s, the function reverses the second
 	half of the string
 	'''
-	pass
+	c = len(s)
+	d = c / 2
+	if c%2 == 0:
+		return s[c:d-1:-1]
+	else:
+		return s[c:d:-1]
 
 def list_power(a):
 	'''
