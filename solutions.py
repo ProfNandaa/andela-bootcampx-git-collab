@@ -7,6 +7,7 @@ def max_int(a):
 	for value in a:
 		if maxs < a[0]:
 			maxs = value 
+			
 		return maxs 
 
 def half_reverse(s):
