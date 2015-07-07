@@ -3,21 +3,12 @@ def max_int(a):
 	The function returns the largest integer
 	in a given list a
 	'''
-<<<<<<< HEAD
 	maxs=0
 	for value in a: 
-		if maxs > a:
+		if maxs > value:
 			maxs = value
 	return maxs
-=======
-	maxs = 0
-	for value in a:
-		if maxs < a[0]:
-			maxs = value 
-			
-		return maxs 
->>>>>>> 1bc83d1d5202ca125b7bae1695cc6d1217b27bbd
-
+	
 def half_reverse(s):
 	'''
 	Given a string s, the function reverses the second
