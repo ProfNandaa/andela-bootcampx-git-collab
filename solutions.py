@@ -22,5 +22,5 @@ def list_power(a):
 	for number in a:
 		ind_num = a.index(number)
 		new_set.append(number**ind_num)
-	print new_set
+	return new_set
 
